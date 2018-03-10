@@ -8,10 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		CB6B9ECC20543AF900E397B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6B9ECB20543AF900E397B9 /* AppDelegate.swift */; };
-		CB6B9ECE20543AF900E397B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6B9ECD20543AF900E397B9 /* ViewController.swift */; };
 		CB6B9ED020543AF900E397B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB6B9ECF20543AF900E397B9 /* Assets.xcassets */; };
 		CB6B9ED320543AF900E397B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB6B9ED120543AF900E397B9 /* Main.storyboard */; };
 		CB6B9EDF20543AF900E397B9 /* ChatterAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6B9EDE20543AF900E397B9 /* ChatterAppTests.swift */; };
+		CB6B9EED20543BF400E397B9 /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6B9EEC20543BF400E397B9 /* ChannelVC.swift */; };
+		CB6B9EEF20543C1600E397B9 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6B9EEE20543C1600E397B9 /* ChatVC.swift */; };
+		CB6B9EF120543C2700E397B9 /* ToolbarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6B9EF020543C2700E397B9 /* ToolbarVC.swift */; };
+		CB6B9EF320543D9300E397B9 /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6B9EF220543D9300E397B9 /* MainWindowController.swift */; };
+		CB6B9EF620543F1600E397B9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6B9EF520543F1600E397B9 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,14 +31,17 @@
 /* Begin PBXFileReference section */
 		CB6B9EC820543AF900E397B9 /* ChatterApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatterApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB6B9ECB20543AF900E397B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CB6B9ECD20543AF900E397B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CB6B9ECF20543AF900E397B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB6B9ED220543AF900E397B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CB6B9ED420543AF900E397B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CB6B9ED520543AF900E397B9 /* ChatterApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ChatterApp.entitlements; sourceTree = "<group>"; };
 		CB6B9EDA20543AF900E397B9 /* ChatterAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatterAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB6B9EDE20543AF900E397B9 /* ChatterAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatterAppTests.swift; sourceTree = "<group>"; };
 		CB6B9EE020543AF900E397B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB6B9EEC20543BF400E397B9 /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
+		CB6B9EEE20543C1600E397B9 /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
+		CB6B9EF020543C2700E397B9 /* ToolbarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarVC.swift; sourceTree = "<group>"; };
+		CB6B9EF220543D9300E397B9 /* MainWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
+		CB6B9EF520543F1600E397B9 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,12 +83,14 @@
 		CB6B9ECA20543AF900E397B9 /* ChatterApp */ = {
 			isa = PBXGroup;
 			children = (
+				CB6B9EF420543F0500E397B9 /* Utilities */,
+				CB6B9EEB20543B4700E397B9 /* Models */,
+				CB6B9EEA20543B4200E397B9 /* Views */,
+				CB6B9EE920543B3A00E397B9 /* Controllers */,
 				CB6B9ECB20543AF900E397B9 /* AppDelegate.swift */,
-				CB6B9ECD20543AF900E397B9 /* ViewController.swift */,
 				CB6B9ECF20543AF900E397B9 /* Assets.xcassets */,
 				CB6B9ED120543AF900E397B9 /* Main.storyboard */,
 				CB6B9ED420543AF900E397B9 /* Info.plist */,
-				CB6B9ED520543AF900E397B9 /* ChatterApp.entitlements */,
 			);
 			path = ChatterApp;
 			sourceTree = "<group>";
@@ -93,6 +102,39 @@
 				CB6B9EE020543AF900E397B9 /* Info.plist */,
 			);
 			path = ChatterAppTests;
+			sourceTree = "<group>";
+		};
+		CB6B9EE920543B3A00E397B9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CB6B9EEC20543BF400E397B9 /* ChannelVC.swift */,
+				CB6B9EEE20543C1600E397B9 /* ChatVC.swift */,
+				CB6B9EF020543C2700E397B9 /* ToolbarVC.swift */,
+				CB6B9EF220543D9300E397B9 /* MainWindowController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CB6B9EEA20543B4200E397B9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CB6B9EEB20543B4700E397B9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CB6B9EF420543F0500E397B9 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				CB6B9EF520543F1600E397B9 /* Constants.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,6 +188,11 @@
 					CB6B9EC720543AF900E397B9 = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
 					};
 					CB6B9ED920543AF900E397B9 = {
 						CreatedOnToolsVersion = 9.0;
@@ -197,8 +244,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB6B9ECE20543AF900E397B9 /* ViewController.swift in Sources */,
+				CB6B9EEF20543C1600E397B9 /* ChatVC.swift in Sources */,
+				CB6B9EED20543BF400E397B9 /* ChannelVC.swift in Sources */,
+				CB6B9EF120543C2700E397B9 /* ToolbarVC.swift in Sources */,
 				CB6B9ECC20543AF900E397B9 /* AppDelegate.swift in Sources */,
+				CB6B9EF320543D9300E397B9 /* MainWindowController.swift in Sources */,
+				CB6B9EF620543F1600E397B9 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,7 +393,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = ChatterApp/ChatterApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = ChatterApp/Info.plist;
@@ -357,7 +407,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = ChatterApp/ChatterApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = ChatterApp/Info.plist;
